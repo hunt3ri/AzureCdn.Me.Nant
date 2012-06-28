@@ -14,12 +14,9 @@
 		<description>AzureCdn.Me.Nant contains a custom build of YUI Compressor that adds a new parameter to the cssCompressor task allowing you to append a query string onto image refs in your css files, thus invalidating them on the Azure CDN cache</description>
 		<releaseNotes>Initial version</releaseNotes>
 		<copyright>Copyright 2012</copyright>
-		<tags>azure cdn cacheing</tags>
-		<dependencies>
-			<dependency id="AzureCdn.Me" version="1.0.0.0" />
-		</dependencies>
+		<tags>azure cdn cacheing nant</tags>
 	</metadata>
 	<files>
-		<file src="..\..\..\lib\*.dll*" target="lib\net40" />
+		<file src="..\lib\*.dll" target="content\lib" />
 	</files>
 </package>
