@@ -12,7 +12,7 @@
 		<requireLicenseAcceptance>false</requireLicenseAcceptance>
 		<summary>AzureCdn.Me.Nant appends a querystring to images referenced in CSS files, thus invalidating any CDN cache</summary>
 		<description>AzureCdn.Me.Nant contains a custom build of YUI Compressor that adds a new parameter to the cssCompressor task allowing you to append a query string onto image refs in your css files, thus invalidating them on the Azure CDN cache</description>
-		<releaseNotes>Initial version</releaseNotes>
+		<releaseNotes>Add image version in js minification too</releaseNotes>
 		<copyright>Copyright 2012</copyright>
 		<tags>azure cdn cacheing nant</tags>
 	</metadata>
